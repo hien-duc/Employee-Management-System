@@ -185,7 +185,7 @@ namespace Retail_Management_System.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Username,Password,Email,FullName,RoleID,Status,CreatedDate")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Username,Password,Email,FullName,RoleID,Status,CreatedDate")] User user, string? newPassword)
         {
             if (id != user.Id)
             {
@@ -194,7 +194,12 @@ namespace Retail_Management_System.Controllers
 
             if (ModelState.IsValid)
             {
-                try
+                if (newPassword != null)
+                {
+                    user.Password = newPassword;
+                }
+
+            try
                 {
                     _context.Update(user);
                     await _context.SaveChangesAsync();

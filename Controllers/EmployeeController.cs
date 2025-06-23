@@ -24,7 +24,7 @@ namespace Employee_Management_System.Controllers
         }
 
         // GET: Employee
-        public async Task<IActionResult> Index(string searchString, int? departmentId)
+        public async Task<IActionResult> Index(string searchString, int? departmentId, int page = 1)
         {
             // Store filter values in ViewData for form persistence
             ViewData["CurrentFilter"] = searchString;
@@ -50,8 +50,19 @@ namespace Employee_Management_System.Controllers
                 employeesQuery = employeesQuery.Where(e => e.DepartmentId == departmentId.Value);
             }
             
-            // Execute query and get results
-            var employees = await employeesQuery.ToListAsync();
+            // Pagination settings
+            int pageSize = 10;
+            int totalItems = await employeesQuery.CountAsync();
+            int totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+            
+            page = Math.Max(1, Math.Min(page, Math.Max(1, totalPages)));
+            
+            // Get the products for the current page
+            var employees = await employeesQuery
+                .OrderBy(p => p.FullName)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
             
             // Map to view models
             var viewModels = employees.Select(e => new EmployeeViewModel
@@ -69,6 +80,10 @@ namespace Employee_Management_System.Controllers
                 Status = e.Status == 1,
                 ProfileImage = e.ProfileImage
             }).ToList();
+            
+            // Set pagination data for the view
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = totalPages;
             
             return View(viewModels);
         }
