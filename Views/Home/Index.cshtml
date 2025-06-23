@@ -1,0 +1,109 @@
+@model Employee_Management_System.Models.ViewModels.DashboardViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (Model.Carousels.Any())
+{
+    <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            @for (int i = 0; i < Model.Carousels.Count(); i++)
+            {
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-current="@(i == 0 ? "true" : "false")" aria-label="Slide @(i+1)"></button>
+            }
+        </div>
+        <div class="carousel-inner">
+            @{
+                bool isFirst = true;
+            }
+            @foreach (var item in Model.Carousels)
+            {
+                <div class="carousel-item @(isFirst ? "active" : "")">
+                    <img src="@item.ImagePath" class="d-block w-100" alt="@item.Title">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>@item.Title</h5>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+                isFirst = false;
+            }
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Employee Management System</h1>
+    <p>A comprehensive solution for managing your organization's workforce.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h5 class="card-title">Total Employees</h5>
+                <p class="card-text display-4">@Model.TotalEmployees</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h5 class="card-title">Total Departments</h5>
+                <p class="card-text display-4">@Model.TotalDepartments</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <h5 class="card-title">Recently Hired</h5>
+                <p class="card-text display-4">@Model.RecentlyHiredEmployees.Count()</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h5 class="mb-0">Recently Hired Employees</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Employee Code</th>
+                                <th>Full Name</th>
+                                <th>Department</th>
+                                <th>Position</th>
+                                <th>Hire Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var employee in Model.RecentlyHiredEmployees)
+                            {
+                                <tr>
+                                    <td>@employee.EmployeeCode</td>
+                                    <td>@employee.FullName</td>
+                                    <td>@employee.Department?.DepartmentName</td>
+                                    <td>@employee.Position</td>
+                                    <td>@employee.HireDate.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

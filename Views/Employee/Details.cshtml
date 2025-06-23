@@ -1,0 +1,76 @@
+@model Employee_Management_System.Models.ViewModels.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<div class="container">
+    <h2>Employee Details</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            @if (!string.IsNullOrEmpty(Model.ProfileImage))
+            {
+                <div class="text-center mb-4">
+                    <img src="~/images/profiles/@Model.ProfileImage" alt="Profile Image" class="img-fluid rounded-circle" style="max-width: 200px; max-height: 200px;" />
+                </div>
+            }
+            else
+            {
+                <div class="text-center mb-4">
+                    <img src="~/images/profiles/default-profile.png" alt="Default Profile" class="img-fluid rounded-circle" style="max-width: 200px; max-height: 200px;" />
+                </div>
+            }
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4>@Model.FullName</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.EmployeeCode)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.EmployeeCode)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Email)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Phone)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+                        
+                        <dt class="col-sm-4">Department</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.DepartmentName)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Position)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Position)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Salary)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Salary)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.HireDate)</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.HireDate)</dd>
+                        
+                        <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Status)</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.Status)
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactive</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer">
+                    @if (User.IsInRole("Admin") || User.IsInRole("HRManager"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                    }
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
