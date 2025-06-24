@@ -25,8 +25,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png"
+    },
+    {
       "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.png",
       "PackagePath": "staticwebassets\\images\\profiles\\60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.png"
+    },
+    {
+      "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png"
     },
     {
       "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\js\\site.js",
@@ -67,6 +75,10 @@
     {
       "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css"
     },
     {
       "Id": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",

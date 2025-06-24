@@ -70,10 +70,10 @@
                                 <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
                                 <td>
                                     <div class="btn-group" role="group">
-                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square"></i></a>
-                                        @if (item.Role.RoleName == "Staff")
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                                        @if (item.Role.RoleName != "Admin" )
                                         {
-                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                                           <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
                                         }
                                     </div>
                                 </td>

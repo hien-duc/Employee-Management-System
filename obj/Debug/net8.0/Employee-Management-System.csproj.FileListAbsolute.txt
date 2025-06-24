@@ -138,3 +138,4 @@ E:\CSE443\Employee-Management-System\obj\Debug\net8.0\Employee-Management-System
 E:\CSE443\Employee-Management-System\obj\Debug\net8.0\ref\Employee-Management-System.dll
 E:\CSE443\Employee-Management-System\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\CSE443\Employee-Management-System\obj\Debug\net8.0\scopedcss\projectbundle\Employee-Management-System.bundle.scp.css
+E:\CSE443\Employee-Management-System\obj\Debug\net8.0\Employee-Management-System.sourcelink.json

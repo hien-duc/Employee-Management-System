@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ne+UJY50xrlGzYzOzozVPPbGV90N9s0I+XH5NiLqtQs=",
+  "Hash": "0SXgZ+amnvju1HrMJq3DDtaaqCTc6NGkyj9csF8qLL8=",
   "Source": "Employee-Management-System",
   "BasePath": "_content/Employee-Management-System",
   "Mode": "Default",
@@ -164,6 +164,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png",
+      "SourceId": "Employee-Management-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSE443\\Employee-Management-System\\wwwroot\\",
+      "BasePath": "_content/Employee-Management-System",
+      "RelativePath": "images/profiles/2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8umxchizni",
+      "Integrity": "IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png"
+    },
+    {
       "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.png",
       "SourceId": "Employee-Management-System",
       "SourceType": "Discovered",
@@ -183,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\profiles\\60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.png"
+    },
+    {
+      "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png",
+      "SourceId": "Employee-Management-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSE443\\Employee-Management-System\\wwwroot\\",
+      "BasePath": "_content/Employee-Management-System",
+      "RelativePath": "images/profiles/bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8umxchizni",
+      "Integrity": "IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png"
     },
     {
       "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\js\\site.js",
@@ -372,6 +414,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "SourceId": "Employee-Management-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSE443\\Employee-Management-System\\wwwroot\\",
+      "BasePath": "_content/Employee-Management-System",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-icons#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dqci19kbu",
+      "Integrity": "hmkHeZACn2GNJ3MVx76ETwWzHCpzzDpD4l8A28965d0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css"
     },
     {
       "Identity": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
@@ -1979,6 +2042,88 @@
       ]
     },
     {
+      "Route": "images/profiles/2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.8umxchizni.png",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6575444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 02:29:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8umxchizni"
+        },
+        {
+          "Name": "label",
+          "Value": "images/profiles/2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU="
+        }
+      ]
+    },
+    {
+      "Route": "images/profiles/2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\2d5cb30c-5640-4130-bc8e-56da870cce5b_hes_kinda_cute.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6575444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 02:29:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU="
+        }
+      ]
+    },
+    {
       "Route": "images/profiles/60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.0w95diun9y.png",
       "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\60857b34-8c8b-4e2a-a706-fc8141392915_coffee_house_bossa_nova_beats_for_cosy_mornings.png",
       "Selectors": [],
@@ -2057,6 +2202,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-UBa9YP7B1nRLfEz7umuhxiP1OPE1hLr54L4ScWd7ZLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/profiles/bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.8umxchizni.png",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6575444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 02:29:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8umxchizni"
+        },
+        {
+          "Name": "label",
+          "Value": "images/profiles/bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU="
+        }
+      ]
+    },
+    {
+      "Route": "images/profiles/bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\images\\profiles\\bb05fe01-d0cc-4743-9512-5ca073af26a1_hes_kinda_cute.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6575444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 02:29:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IL5O4No58Dq9tJ7q3wMBiCFS5D02Zu5GFZjDcrI4/CU="
         }
       ]
     },
@@ -2795,6 +3022,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-icons.6dqci19kbu.css",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmkHeZACn2GNJ3MVx76ETwWzHCpzzDpD4l8A28965d0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 03:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6dqci19kbu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-icons.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hmkHeZACn2GNJ3MVx76ETwWzHCpzzDpD4l8A28965d0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-icons.css",
+      "AssetFile": "E:\\CSE443\\Employee-Management-System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmkHeZACn2GNJ3MVx76ETwWzHCpzzDpD4l8A28965d0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 03:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hmkHeZACn2GNJ3MVx76ETwWzHCpzzDpD4l8A28965d0="
         }
       ]
     },

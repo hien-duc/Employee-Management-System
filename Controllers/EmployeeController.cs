@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Employee_Management_System.Controllers
 {
-    [Authorize] // Requires authentication
+    // [Authorize] // Requires authentication
     public class EmployeeController : Controller
     {
         private readonly ApplicationDbContext _context;
